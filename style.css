@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth; 
+  }
+  
+  html,body{
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif; 
+  }
+  
+  .container{
+    width: 100%;
+    display: flex; 
+  }
+  
+  .nav{
+    width: 250px; 
+    background-color: aliceblue;
+    border-bottom: gray;
+    box-sizing: border-box; 
+    overflow-y: auto; 
+    flex-shrink: 0; ;
+    padding: 15px;
+  }
+  
+  .nav h2 {
+      margin-top: 0;
+  }
+  
+  .nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    
+  }
+  
+  .nav li{
+    margin: 0;
+  }
+  
+  .nav li a {
+      display: block; 
+      padding: 10px 1px; 
+      text-decoration: none; 
+      color: #333; 
+      border-bottom: 1px solid gray; 
+  }
+  /* Nội dung chính */
+  .content{
+    background-color: aliceblue;
+    padding: 20px 40px; 
+    flex-grow: 1; 
+    overflow-y: auto; 
+    height: 100vh; 
+    box-sizing: border-box;
+    border: 2px solid gray; 
+  }
+  
+  h1{
+    text-align: center;
+    margin-top: 1.5em; 
+  }
+  
+  h1[id] {
+      scroll-margin-top: 15px; 
+  }
+  
+  
+  .khoi-code {
+      background-color: rgba(211, 211, 211, 0.74);
+      padding: 15px;
+      margin: 1em 0;
+      border-radius: 5px;
+      overflow-x: auto; 
+  }
+  
+  .khoi-code pre {
+      margin: 0;               
+      font-family: monospace;  
+      white-space: pre-wrap;   
+      word-wrap: break-word;   
+  }
+  ul.danh-sach-dac-biet {
+      list-style-type: circle; 
+      padding-left: 50px;     
+      margin-top: 0.5em; 
+      margin-bottom: 0.5em;
+  
+  }
+  
+  ul.danh-sach-dac-biet li:last-child {
+      list-style-type: disc;  
+  }
+  
+  ul.danh-sach-dac-biet li {
+      margin-bottom: 8px; 
+  }  
+  
+  ul.tham-khao {
+      list-style-type: disc; 
+      padding-left: 25px;    
+      margin-top: 1em;       
+  }
